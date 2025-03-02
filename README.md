@@ -1,2 +1,10 @@
 # Juego-del-amigo-secreto
 Challenge: Juego del Amigo Secreto
+Este Juego tienen múltiples funciones, que se enumerarán a continuación:
+1.- ![image](https://github.com/user-attachments/assets/b7ea5777-9f9f-427b-96bc-487134fd4582) Lo primero que tenemos en nuestro código es un arreglo (Array) que nos permitirá ir almacenando cada nombre de amigo que ingresemos.
+2.- ![image](https://github.com/user-attachments/assets/112be776-8e65-41a1-9a76-ed572121556d) Esta función realiza varias acciones: a) Toma el valor que se ingrese como nombre de amigo y en caso que esté blanco, envía un alerta para que se ingrese un nombre, caso contrario, introducirá el nombre del amigo del usuario al Array y además, accionará la función de limpiará la celda, nos mostrará el mensaje de "Ingrese otro nombre" y por último, acciona la función de imprimir amigo.
+3.- ![image](https://github.com/user-attachments/assets/f6723e94-045c-4b92-9628-d23b53578c43) Esta función lo que hace es tomar cada nombre de amigo almacenado en el arreglo y los ingresa como lista en el ul de listaAmigos.
+4.- ![image](https://github.com/user-attachments/assets/dba4c4a7-0a17-4039-86ad-bbc85482d878) Esta función es exclusiva para limpiar o eliminar los caracteres ingresados en el cuadro de input, donde se ingresa el nombre del amigo.
+5.- ![image](https://github.com/user-attachments/assets/58c1b863-e0a3-4cd3-9da3-9f11739b15f4) Esta función realiza las siguientes acciones: a) en caso que no se hayan ingresado ningún nombre de amigo, se mostrará la alerta que debe añadir al menos uno; b) elegir un elemento de dentro del arreglo, al azar; c) muestra en un mensaje que el amigo secreto es el elemento tomado al azar; y d) le remueve el atributo de indisponible al botón de Reiniciar Juego.
+6.- ![image](https://github.com/user-attachments/assets/7feea90f-88a1-4e21-85ac-1c7d4e671a29) Esta última función, realiza 4 acciones: a) borra la información que se mostró como resultado del amigo secreto; b) elimina la información ingresada en la lista de amigos; c) vuelve a mostrar el mensaje de "ingrese el nombre de tus amigos"; y por último, d) elimina los elementos que se habían almacenado en el arreglo.
+
